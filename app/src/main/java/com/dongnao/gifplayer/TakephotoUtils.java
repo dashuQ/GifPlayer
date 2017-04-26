@@ -91,6 +91,7 @@ public class TakephotoUtils {
      *
      * @param takePhoto
      * @param type      0相册选择，1拍照
+     * @param compressFlag       compressFlag  //是否压缩 false压缩 true不压缩
      */
     public static void pictureSelection(TakePhoto takePhoto, int type,boolean cropFlag,boolean compressFlag) {
         String temp = Constants.CACHE_FILE_NAME;
